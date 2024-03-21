@@ -53,6 +53,26 @@ body {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .card {
+        overflow-y: auto; /* Thêm thanh cuộn dọc */
+        height: auto; /* Thay đổi chiều cao thành tự động */
+    }
+    .card img.birthday {
+        max-width: 100%; /* Đảm bảo hình ảnh không vượt quá kích thước của màn hình */
+        height: auto; /* Thay đổi chiều cao thành tự động */
+    }
+    .text {
+        padding: 1em; /* Giảm padding */
+    }
+    .text h1 {
+        font-size: 30px!important; /* Thay đổi kích thước font chữ */
+    }
+    .size_p_tag {
+        font-size: 100%!important; /* Giảm kích thước font của các đoạn văn bản */
+    }
+}
+
 img.birthday {
     max-height: 40vh;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
