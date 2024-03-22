@@ -71,6 +71,9 @@ body {
     .size_p_tag {
         font-size: 100%!important; /* Giảm kích thước font của các đoạn văn bản */
     }
+    .birthday {
+        width: 70%!important;
+    }
 }
 
 img.birthday {

@@ -36,7 +36,7 @@ export function GiftPage3() {
                     <div className="my-4" style={{display: checkDisplayButton}}>
                         <input type="button" value="Nếu vợ đã sẵn sàng thì bấm vào đây nhá ^^" className="btn btn-primary" onClick={() => setCheckDisplay("")}/>
                     </div>
-                    
+
                     <div style={{display: checkDisplay}}>
                         <h4>Mật khẩu khui quà sẽ có 11 chữ cái nha vợ🥰</h4>
 
@@ -52,8 +52,6 @@ export function GiftPage3() {
                             <img src={gif2} alt="" style={{display: "", width: '20%'}}/>
                         </Link>
                     </div>
-
-
                 </div>
                 <div className="space"></div>
             </div>

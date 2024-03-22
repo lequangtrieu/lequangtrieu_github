@@ -11,6 +11,7 @@ import {HideGift2} from "./component/HideGift2";
 import {GiftPage3} from "./component/GiftPage3";
 import {OpenGift3} from "./component/OpenGift3";
 import {EndPage} from "./component/EndPage";
+import {ViewImg210324} from "./component/ViewImg210324";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route path="/gift3" element={<GiftPage3/>}></Route>
             <Route path="/open3" element={<OpenGift3/>}></Route>
             <Route path="/end" element={<EndPage/>}></Route>
+            <Route path="/viewImg210324" element={<ViewImg210324/>}></Route>
         </Routes>
     </>
   );

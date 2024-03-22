@@ -7,7 +7,6 @@ export function HideGift2() {
     return (
 
         <>
-
             <div className="card">
 
                     <img style={{width: '60%'}} src={gif1} alt="birthday" className="birthday" />
