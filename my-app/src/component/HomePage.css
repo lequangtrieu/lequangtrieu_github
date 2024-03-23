@@ -112,7 +112,7 @@ img.birthday {
 
 .card {
     overflow-y: auto; /* Thêm thanh cuộn dọc */
-    height: auto; /* Thay đổi chiều cao thành tự động */
+    /*height: auto; !* Thay đổi chiều cao thành tự động *!*/
 }
 .card img.birthday {
     max-width: 100%; /* Đảm bảo hình ảnh không vượt quá kích thước của màn hình */
